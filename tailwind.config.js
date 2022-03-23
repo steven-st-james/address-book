@@ -3,7 +3,11 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#ff6394",
+      }
+    },
   },
-  plugins: [],
+  plugins: [require("sailui")],
 }
